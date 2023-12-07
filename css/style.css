@@ -1,0 +1,641 @@
+#navbar
+{
+    background-color: #000000d9 !important;
+}
+nav .hover::before 
+{
+    content: '';
+    width: 0 ;
+    height: 2px ;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    background-color: #fff;
+    transition: 0.5s;
+}
+nav .hover
+{
+    position: relative;
+}
+.color-black{
+    color: black!important;
+}
+nav a{
+    color: #fff !important;
+}
+nav .navbar-brand
+{
+    font-size: 28px;
+    
+}
+nav .hover:hover::before 
+{
+    width: 50px !important;
+}
+nav .ul-1
+{
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25)
+}
+nav .dropdown:hover .ul-1 
+{
+    visibility: visible;
+}
+nav .deep-drop
+{
+    position: relative;
+}
+nav .ul-2
+{
+    position: absolute;
+    left: 163px;
+    top: -5px;
+    background-color: #fff;
+    padding: 12px;
+    visibility: hidden;
+    border-radius: 7px;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25)
+}
+nav .ul-1 a:hover 
+{
+    color: #0078FF !important;
+}
+nav .deep-drop:hover .ul-2
+{
+visibility: visible;
+}
+.dropdown-menu a:hover{
+
+background-color: transparent;
+color: #09c !important;
+}
+#home
+{
+    background: linear-gradient(#0000008f  , #0000008f) , url(../img/hero-bg.jpg) ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+#home h1
+{
+    font-size: 72px;
+    line-height:86.4px;
+    color: #fff;
+}
+
+#home .container span
+{
+    position: relative;
+}
+ #home .container span::after 
+ {
+    content: '|';
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 600;
+    text-align: end;
+    transform: translateX(-50%);
+    animation: typing 15s  infinite ;
+
+    }
+    
+@keyframes typing
+{
+    1.5%
+    {
+        content: 'D|';
+
+    }
+    3%
+    {
+        content: 'De|';
+    }
+    4.5%
+    {
+        content: 'Des|';
+    }
+    6%
+    {
+        content: 'Desi|';
+    }
+    7.5%
+    {
+        content: 'Desig|';
+    }
+    9%
+    {
+        content: 'Design|';
+    }
+    10.5%
+    {
+        content: 'Designe|';
+    }
+    12%
+    {
+        content: 'Designer|';
+    }
+    13.5%
+    {
+        content: 'Designer|';
+    }
+    15%
+    {
+        content: 'Designe|';
+    }
+    16.5%
+    {
+        content: 'Design|';
+    }
+    18%
+    {
+        content: 'Desig|';
+    }
+    19.5%
+    {
+        content: 'Desi|';
+    }
+    21%
+    {
+        content: 'Des|';
+    }
+    22.5%
+    {
+        content: 'De|';
+    }
+    24%
+    {
+        content: 'Dev|';
+    }
+    25.5%
+    {
+        content: 'Deve|';
+    }
+    27%
+    {
+        content: 'Devel|';
+    }
+    28.5%
+    {
+        content: 'Develo|';
+    }
+    30%
+    {
+        content: 'Develop|';
+    }
+    31.5%
+    {
+        content: 'Develope|';
+    }
+    33%
+    {
+        content: 'Developer|';
+    }
+    34.5%
+    {
+        content: 'Developer|';
+    }
+    36%
+    {
+        content: 'Develope|';
+    }
+    37.5%
+    {
+        content: 'Develop|';
+    }
+    39%
+    {
+        content: 'Develo|';
+    }
+    40.5%
+    {
+        content: 'Devel|';
+    }
+    42%
+    {
+        content: 'Deve|';
+    }
+    43.5%
+    {
+        content: 'Dev|';
+    }
+    45%
+    {
+        content: 'De|';
+    }
+    46.5%
+    {
+        content: 'D|';
+    }
+    48%
+    {
+        content: '|';
+    }
+    49.5%
+    {
+        content: 'F|';
+    }
+    51%
+    {
+        content: 'Fr|';
+    }
+    52.5%
+    {
+        content: 'Fre|';
+    }
+    54%
+    {
+        content: 'Free|';
+    }
+    55.5%
+    {
+        content: 'Freel|';
+    }
+    57%
+    {
+        content: 'Freela|';
+    }
+    58.5%
+    {
+        content: 'Freelan|';
+    }
+    60%
+    {
+        content: 'Freelanc|';
+    }
+    61.5%
+    {
+        content: 'Freelance|';
+    }
+    63%
+    {
+        content: 'Freelancer|';
+    }
+    64.5%
+    {
+        content: 'Freelancer|';
+    }
+    66%
+    {
+        content: 'Freelance|';
+    }
+    67.5%
+    {
+        content: 'Freelanc|';
+    }
+    68%
+    {
+        content: 'Freelan|';
+    }
+    69.5%
+    {
+        content: 'Freela|';
+    }
+    70.5%
+    {
+        content: 'Freel|';
+    }
+    71.8%
+    {
+        content: 'Free|';
+    }
+    72.1%
+    {
+        content: 'Fre|';
+    }
+    73.4%
+    {
+        content: 'Fr|';
+    }
+    74.7%
+    {
+        content: 'F|';
+    }
+    75.3%
+    {
+        content: '|';
+    }
+    76.3%
+    {
+        content: 'p|';
+    }
+    77.6%
+    {
+        content: 'ph|';
+    }
+    78.9%
+    {
+        content: 'pho|';
+    }
+    79.2%
+    {
+        content: 'phot|';
+    }
+    80%
+    {
+        content: 'photo|';
+    }
+    81.3%
+    {
+        content: 'photog|';
+    }
+    82.1%
+    {
+        content: 'photogr|';
+    }
+    83.4%
+    {
+        content: 'photogra|';
+    }
+    84.7%
+    {
+        content: 'photograp|';
+    }
+    85.2%
+    {
+        content: 'photograph|';
+    }
+    86.3%
+    {
+        content: 'photographe|';
+    }
+    87.6%
+    {
+        content: 'photographer|';
+    }
+    88.6%
+    {
+        content: 'photographer|';
+    }
+    89.2%
+    {
+        content: 'photographe|';
+    }
+    90%
+    {
+        content: 'photograph|';
+    }
+    91%
+    {
+        content: 'photograp|';
+    }
+    92%
+    {
+        content: 'photogra|';
+    }
+    93%
+    {
+        content: 'photogr|';
+    }
+    94%
+    {
+        content: 'photog|';
+    }
+    95%
+    {
+        content: 'photo|';
+    }
+    96%
+    {
+        content: 'phot|';
+    }
+    97%
+    {
+        content: 'pho|';
+    }
+    98%
+    {
+        content: 'ph|';
+    }
+    99%
+    {
+        content: 'p|';
+    }
+    100%
+    {
+        content: '|';
+    }
+
+}
+#SERVICES .container .row .text-1 .service-img i{
+    height: 100px;
+    width: 100px;
+ text-align: center;
+border-radius: 50%;
+
+   
+ 
+background-color: transparent;
+    box-shadow: 0 0 0 10px #0078ff ;
+transition: background-color 1s ;
+}
+
+#SERVICES .container .row .text-1:hover .service-img i{
+    background-color: #0078ff;
+    box-shadow: 0 0 0 10px #bfcddc;
+}
+
+.section{
+    background-image: url(../img/counters-bg.jpg);
+    background-size: contain;
+    background-position: center;
+    height: 400px;
+}
+.section .contain{
+    background-color: rgba(4, 91, 184, 0.7);
+    height: 400px;
+}
+.section  .icon {
+    height: 75px;
+    width: 75px;
+position: relative;
+left: 90;
+   margin-bottom: 10px;
+    background-color: rgba(4, 91, 184, 0.7);
+   
+  box-shadow: 0 0 0 10px #bfcddc;
+}
+#WORK .container .row .card img{
+    transition: transform 1s;
+}
+#WORK .container .row .card img:hover{
+    transform: scale(1.05);
+} 
+.section-2{
+    background-image: url(../img/overlay-bg.jpg);
+    background-size: contain;
+    background-position: center;
+    height: 400px;
+}
+.section-2 .row{
+    background-color: rgba(4, 91, 184, 0.7);
+    height: 400px;
+   
+}
+.card-group .card .card-footer img{
+    width: 15%;
+}
+.card-group .card .card-body .progress{
+    background-color: transparent;
+    position: relative;
+    bottom: 25;
+    left: 110;
+    height: 25px;
+}
+#BLOG .container .row .col-md-12 .card-group .card a{
+    color: black;
+    transition:color 1s ;
+}
+#BLOG .container .row .col-md-12 .card-group .card a:hover{
+    color: #0078ff;
+}
+#CONTACT{
+background-image: url(../img/overlay-bg.jpg);
+background-size: 100% 100%;
+background-position: center;
+    height: 800px; 
+}
+#CONTACT .conty{
+    background-color: rgba(4, 91, 184, 0.7);
+    height: 800px;
+   width: 100%;
+}
+#CONTACT .conty .container{
+   width: 90%;
+    height: 700px;
+   
+}
+#CONTACT .container .row .col-md-6 .progress{
+    background-color: transparent;
+}
+#CONTACT .container .row .col-md-6 .btn button{
+    border: 3px #09c solid;
+    color: #fff;
+    background-color: #0078ff;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    width: 45%;
+    height: 50px;
+    transition: all 1s;
+}
+#CONTACT .container .row .col-md-6 .btn button:hover{
+    box-shadow: 0 0 0 5px #bfcddc;
+    background-color: rgba(66, 66, 66, 0.5);
+}
+#CONTACT .container .row .col-md-6 .icons .icons-1 {
+    
+    border: #09c 2px solid;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    transition: all 1s;
+    
+}
+#CONTACT .container .row .col-md-6 .icons .icons-1:hover{
+    background-color: #0078ff;
+    box-shadow: 0 0 0 5px #bfcddc;
+}
+#CONTACT .container .row .col-md-6 .icons .icons-2 {
+    
+    border: #09c 2px solid;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    transition: all 1s;
+}
+#CONTACT .container .row .col-md-6 .icons .icons-2:hover{
+    background-color: #0078ff;
+    box-shadow: 0 0 0 5px #bfcddc;
+}
+#CONTACT .container .row .col-md-6 .icons .icons-3 {
+    
+    border: #09c 2px solid;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    transition: all 1s;
+}
+#CONTACT .container .row .col-md-6 .icons .icons-3:hover{
+    background-color: #0078ff;
+    box-shadow: 0 0 0 5px #bfcddc;
+}
+#CONTACT .container .row .col-md-6 .icons .icons-4 {
+    
+    border: #09c 2px solid;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+   background-color: transparent;
+   transition: all 1s;
+}
+#CONTACT .container .row .col-md-6 .icons .icons-4:hover{
+    background-color: #0078ff;
+    box-shadow: 0 0 0 5px #bfcddc;
+}
+footer {
+    text-align: center;
+    color: #fff;
+    padding: 25px 0;
+    background: #0062d3;
+}
+footer .dev{
+    color: #fff;
+}
+footer a{
+    color: #fff;
+}
+
+@media (max-width:768px){
+    #CONTACT .container .icons {
+        
+     margin-top: 0 !important;
+     position: relative;
+     bottom: 25;
+         
+    }
+    #CONTACT .conty{
+        padding-top: 2px !important;
+    }
+    #CONTACT .container{
+        padding-top: 0px !important;
+    }
+    #CONTACT .container .row{
+        display: block !important;
+      
+        height: 0;
+        
+    }
+    #CONTACT .container .row form .sfff{
+        padding: 20px;
+    }
+    
+}
+@media (max-width:575px){
+    
+    .section .contain {
+       
+       height: 500px;
+    }
+    .section .contain .row .icon{
+        position: relative;
+        left: 205;
+    }
+    .section .contain .icon {
+       width: 50px;
+       height: 50px;
+       
+        }
+       .section{
+        height: 500px;
+       }
+    
+}
